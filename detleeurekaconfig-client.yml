@@ -45,4 +45,4 @@ spring:
       name: admin
       password: a
   application:
-    name: detkeeurekaconfig-client
+    name: detleeurekaconfig-client
