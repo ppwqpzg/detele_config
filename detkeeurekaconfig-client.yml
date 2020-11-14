@@ -23,7 +23,7 @@ spring:
       name: admin
       password: a
   application:
-    name: microservice-config-eureka-client
+    name: detkeeurekaconfig-client
 ---
 server:
  port: 7002
@@ -45,4 +45,4 @@ spring:
       name: admin
       password: a
   application:
-    name: microcloud-config-eureka-client
+    name: detkeeurekaconfig-client
