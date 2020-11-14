@@ -1,1 +1,0 @@
-# detele_config
