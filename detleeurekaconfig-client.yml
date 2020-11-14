@@ -14,8 +14,8 @@ eureka:
     register-with-eureka: false
     service-url:
         defaultZone: http://admin:a@localhost:7001/eureka
-  instance: # eureak实例定义
-    hostname: localhost # 定义 Eureka 实例所在的主机名称
+  instance: #eureak实例定义
+    hostname: localhost #定义Eureka实例所在的主机名称
 spring:
   profiles: dev
   security:
@@ -23,7 +23,7 @@ spring:
       name: admin
       password: a
   application:
-    name: detkeeurekaconfig-client
+    name: detleeurekaconfig-client
 ---
 server:
  port: 7002
@@ -36,8 +36,8 @@ eureka:
     register-with-eureka: false
     service-url:
         defaultZone: http://admin:a@localhost:7002/eureka
-  instance: # eureak实例定义
-    hostname: localhost # 定义 Eureka 实例所在的主机名称
+  instance: #eureak实例定义
+    hostname: localhost #定义Eureka实例所在的主机名称
 spring:
   profiles: beta
   security:
